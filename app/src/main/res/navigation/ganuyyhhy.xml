@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ganuyyhhy"
+    app:startDestination="@id/playy222Fragment">
+
+    <fragment
+        android:id="@+id/playy111Fragment"
+        android:name="com.xgamesgroup.puzz.defrrfgtgtgt.Playy111Fragment"
+        android:label="fragment_playy111"
+        tools:layout="@layout/fragment_playy111" >
+        <action
+            android:id="@+id/action_playy111Fragment_to_playy222Fragment"
+            app:destination="@id/playy222Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/playy111Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/playy222Fragment"
+        android:name="com.xgamesgroup.puzz.gkgtkgtkogt.Playy222Fragment"
+        android:label="fragment_playy222"
+        tools:layout="@layout/fragment_playy222" >
+        <action
+            android:id="@+id/action_playy222Fragment_to_playy111Fragment"
+            app:destination="@id/playy111Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/playy111Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
