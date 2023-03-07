@@ -20,8 +20,6 @@ import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
 
-
-
     fun tggtjiogtjiogtjoihy(gtjoigtjigtjigt: Application, gngtjiogtjgtji: Context){
         AppsFlyerLib.getInstance()
             .init("XgFaCKfvLbV7U2wAHZmEPA", rfjfoedifiuhdegyugfr, gtjoigtjigtjigt)

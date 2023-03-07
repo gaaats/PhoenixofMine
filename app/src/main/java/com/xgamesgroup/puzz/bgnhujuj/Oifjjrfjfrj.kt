@@ -5,16 +5,15 @@ import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.appsflyer.AppsFlyerLib
 import com.my.tracker.MyTracker
 import com.onesignal.OneSignal
-import com.xgamesgroup.puzz.bhhyyhjuju.GamymumumumumActivity2
 import com.xgamesgroup.puzz.R
 import com.xgamesgroup.puzz.adreffr.AppapapapapaClas
-import com.xgamesgroup.puzz.thyjuju.VebgtfddActivity2
 import com.xgamesgroup.puzz.adreffr.AppapapapapaClas.Companion.gtjtgjogtjigt
+import com.xgamesgroup.puzz.bhhyyhjuju.GamymumumumumActivity2
+import com.xgamesgroup.puzz.thyjuju.VebgtfddActivity2
 import org.json.JSONException
 import org.json.JSONObject
 
@@ -77,8 +76,6 @@ class Oifjjrfjfrj : AppCompatActivity() {
 
                     gtjoitgjoigtjogt.edit().putString("link", hy5uj5uj5j9).apply()
                     gtjoitgjoigtjogt.edit().putString("ENTRY_CODE", "web").apply()
-                    Toast.makeText(this, "Naming", Toast.LENGTH_LONG).show()
-                    Toast.makeText(this, "link ${hy5uj5uj5j9}", Toast.LENGTH_LONG).show()
 
                     startActivity(Intent(this, VebgtfddActivity2::class.java))
                     fgriojgtojgtjigtj()
@@ -87,8 +84,6 @@ class Oifjjrfjfrj : AppCompatActivity() {
                         "$linkakakokofefr$hhyujuj59$depapapapa&$hy59hy59$nhyjihyjihy&$hyhy5hy9$gaidieifrrf&$bhjuuj2$gtjogtjogtjogti&$hy9uj$hy5ju95ju9uj"
                     gtjoitgjoigtjogt.edit().putString("link", hy5uj5uj5j9).apply()
                     gtjoitgjoigtjogt.edit().putString("ENTRY_CODE", "web").apply()
-                    Toast.makeText(this, "DeepOrg", Toast.LENGTH_SHORT).show()
-                    Toast.makeText(this, "link ${hy5uj5uj5j9}", Toast.LENGTH_LONG).show()
 
                     startActivity(Intent(this, VebgtfddActivity2::class.java))
                     fgriojgtojgtjigtj()
@@ -104,25 +99,19 @@ class Oifjjrfjfrj : AppCompatActivity() {
                     gtjoitgjoigtjogt.edit().putString("link", hy5uj5uj5j9).apply()
                     gtjoitgjoigtjogt.edit().putString("ENTRY_CODE", "web").apply()
 
-                    Toast.makeText(this, "depData ${depapapapa}", Toast.LENGTH_LONG).show()
-                    Toast.makeText(this, "link ${hy5uj5uj5j9}", Toast.LENGTH_LONG).show()
 
                     startActivity(Intent(this, VebgtfddActivity2::class.java))
                     fgriojgtojgtjigtj()
 
-                    Toast.makeText(this, "Null FB", Toast.LENGTH_LONG).show()
                 } else if (geogotgthisosoyoy!!.contains(onlygeoeo.toString())) {
                     hy5uj5uj5j9 = "$linkakakokofefr$hy59hy59$gtkgtojigtjigt&$hyhy5hy9$gaidieifrrf&$bhjuuj2$gtjogtjogtjogti&$hy9uj$hy5hy559j5ju"
                     gtjoitgjoigtjogt.edit().putString("link", hy5uj5uj5j9).apply()
                     gtjoitgjoigtjogt.edit().putString("ENTRY_CODE", "web").apply()
 
-                    Toast.makeText(this, "Null MT", Toast.LENGTH_LONG).show()
-                    Toast.makeText(this, "link ${hy5uj5uj5j9}", Toast.LENGTH_LONG).show()
 
                     startActivity(Intent(this, VebgtfddActivity2::class.java))
                     fgriojgtojgtjigtj()
                 } else {
-                    Toast.makeText(this, "Go to game", Toast.LENGTH_LONG).show()
 
                     startActivity(Intent(this, GamymumumumumActivity2::class.java))
                     fgriojgtojgtjigtj()
@@ -135,7 +124,6 @@ class Oifjjrfjfrj : AppCompatActivity() {
     }
 
     fun gtjigtgthugu(frjifrjirfjigt: String) {
-//        Toast.makeText(this, "PushExpressed", Toast.LENGTH_SHORT).show()
         OneSignal.setExternalUserId(
             frjifrjirfjigt,
             object : OneSignal.OSExternalUserIdUpdateCompletionHandler {

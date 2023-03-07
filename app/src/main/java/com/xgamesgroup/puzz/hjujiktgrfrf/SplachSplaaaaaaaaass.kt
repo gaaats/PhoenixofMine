@@ -30,7 +30,6 @@ class SplachSplaaaaaaaaass : AppCompatActivity() {
         gtjtgjogtjigt["AppsCh"] = response.pheonixapps
         gtjtgjogtjigt["GeoHose"] = response.pheonixgeo
         gtjtgjogtjigt["View"] = response.pheonixlink
-        Toast.makeText(this, "${gtjtgjogtjigt["AppsCh"]},${gtjtgjogtjigt["GeoHose"]},${gtjtgjogtjigt["View"]}", Toast.LENGTH_SHORT).show()
         startActivity(Intent(this, SecondTvoooooo::class.java))
         finish()
     }
@@ -46,11 +45,9 @@ class SplachSplaaaaaaaaass : AppCompatActivity() {
             val cffrrfgrfgtgtgt = getSharedPreferences("NEWPR", Context.MODE_PRIVATE)
             val vffrbfrygfrgyrf =  cffrrfgrfgtgtgt.getString("ENTRY_CODE", "0")
             if (vffrbfrygfrgyrf == "web"){
-//                Toast.makeText(this, "HUILA", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, VebgtfddActivity2::class.java))
                 finish()
             } else {
-//                Toast.makeText(this, "PIZDARULU", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, GamymumumumumActivity2::class.java))
                 finish()
             }
@@ -61,7 +58,6 @@ class SplachSplaaaaaaaaass : AppCompatActivity() {
 
 
             getttdepapappde(this)
-//            frjirfjjgtijigt.getttdepapappde(this)
 
 
             rfvfnvfgthugtguhgt = CompositeDisposable()
@@ -94,14 +90,12 @@ class SplachSplaaaaaaaaass : AppCompatActivity() {
         Log.d("lolo", "deepL start loading")
         Log.d("lolo", "deepConst ${deepConst}")
 
-        Toast.makeText(context, "deepL start loading", Toast.LENGTH_SHORT).show()
 
 
         AppLinkData.fetchDeferredAppLinkData(
             context
         ) {
             if (it == null){
-                Toast.makeText(context, "deep NUULLAA", Toast.LENGTH_SHORT).show()
                 Log.d("lolo", "deepL: NUULLAA")
             }
             if (it!!.targetUri == null){

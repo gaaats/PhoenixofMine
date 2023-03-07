@@ -18,12 +18,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 class SecondTvoooooo : AppCompatActivity() {
 
     private fun onFailure(t: Throwable) {
-        Toast.makeText(this, t.message, Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, t.message, Toast.LENGTH_SHORT).show()
     }
 
     private fun onResponse(response: Fjirjfjijgitjgtijigttg.JIfjijrf) {
         AppapapapapaClas.gtjtgjogtjigt.put("GEO", response.countryCode)
-//        Toast.makeText(this, AppapapapapaClas.pampam["GEO"], Toast.LENGTH_SHORT).show()
         startActivity(Intent(this, MainActivity::class.java))
     }
 
